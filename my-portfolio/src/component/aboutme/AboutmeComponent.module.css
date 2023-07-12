@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sono:wght@600&display=swap');
+
+.mainContainer{
+  display: flex;
+  flex-direction: row;
+  min-width:100%;
+  min-height: 100vh;
+  background-image: url("../../images/backprueba.jpg");
+  background-repeat: repeat;
+}
+.landingContainer{
+  display: flex;
+  justify-content: flex-start;
+  width: 19%;
+  position: fixed;
+  min-height: max-content;
+}
+
+.aboutContainer{
+  display: flex;
+  width: max-content;
+  height: max-content;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.aboutme{
+  color: white;
+  font-family: "Sono", sans-serif;
+  font-weight: 600;
+}
+
+.name{
+  color: white;
+  font-size: 25px;
+  font-family: "Sono", sans-serif;
+  font-weight: 600;
+}
+
+.name2{
+  color:lightseagreen;
+  font-size: 25px;
+  font-family: "Sono", sans-serif;
+  font-weight: 600;
+}
+
+.about{
+  background-color: #222222;
+  width: 90%;
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  border: 1px solid lightslategray;
+}
+.contact{
+  min-width: 100%;
+}
+
+@media only screen and (min-width:0px) and (max-width:420px){
+  .textTitle{
+    color: white;
+    font-size: 20px;
+    font-family: "Sono", sans-serif;
+    font-weight: 800;
+   
+  }
+  .aboutContainer{
+    display: flex;
+    
+  }
+
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .aboutme{
+    display: flex;
+    display: flex;
+     box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px lightseagreen;
+  }
+  
+  .name{
+    display: flex;
+  }
+  
+  .name2{
+    display: flex;
+  }
+  
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .detailStudy{
+    color: rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+  }
+  .descriptionAboutme{
+    color:  rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .containerContact{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .contact{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width:421px) and (max-width:768px){
+
+  .textTitle{
+    color: white;
+    font-size: 20px;
+    font-family: "Sono", sans-serif;
+    font-weight: 800;
+  }
+  .aboutContainer{
+    display: flex;
+    
+  }
+  .aboutme{
+    display: flex;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px lightseagreen;
+  }
+  
+  .name{
+    display: flex;
+  }
+  
+  .name2{
+    display: flex;
+  }
+  
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .detailStudy{
+    color: rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+  }
+  .descriptionAboutme{
+    color:  rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .a{
+    text-decoration: none;
+  }
+  .containerContact{
+    min-width: 100%;
+    height: max-content;
+    display: flex;
+    white-space:pre-wrap;
+    flex-wrap: wrap;
+  }
+  .contact{
+    min-width:max-content;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tagTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+}
+
+@media only screen and (min-width:769px) and (max-width:968px){
+  .textTitle{
+    color: white;
+    font-size: 20px;
+    font-family: "Sono", sans-serif;
+    font-weight: 800;
+  }
+  .aboutContainer{
+    display: flex;
+    
+  }
+  .aboutme{
+    font-size: 50px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px lightseagreen;
+  }
+  
+  .name{
+    display: flex;
+    font-size: 30px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+  
+  .name2{
+    display: flex;
+    font-size: 30px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+  
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .detailStudy{
+    color: rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    
+  }
+  .descriptionAboutme{
+    color:  rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+  }
+  .a{
+    text-decoration: none;
+  }
+
+  .a :hover{
+    color:white;
+  }
+
+  .containerContact{
+    min-width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact{
+    min-width:max-content;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tagTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spanContainer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .descriptionAboutme{
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (min-width:969px) {
+  .textTitle{
+    color: white;
+    font-size: 30px;
+    font-family: "Sono", sans-serif;
+    font-weight: 800;
+  }
+  .aboutContainer{
+    display: flex;
+    
+  }
+  .aboutme{
+    font-size: 60px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px lightseagreen;
+  }
+  
+  .name{
+    display: flex;
+    font-size: 40px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+  
+  .name2{
+    display: flex;
+    font-size: 40px;
+    box-shadow: 2px 2px 15px black;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  }
+  
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+  .detailStudy{
+    color: rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    
+  }
+  .descriptionAboutme{
+    color:  rgb(168, 166, 166);
+    font-family: "Sono", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .a{
+    text-decoration: none;
+  }
+
+  .a :hover{
+    color:white;
+  }
+
+  .containerContact{
+    min-width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contact{
+    min-width:max-content;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .titleContainer{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tagTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .spanContainer{
+    display: flex;
+    align-items: center;
+    width: 90%;
+  }
+
+  .descriptionAboutme{
+    font-size: 20px;
+  }
+
+}
