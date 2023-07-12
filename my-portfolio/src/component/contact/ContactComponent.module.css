@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sono:wght@600&display=swap');
+
+.mainContainer{
+  min-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../../images/backprueba.jpg");
+}
+
+.landinContainer{
+  position: relative;
+}
+
+.formContainer{
+  min-width: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 100%;
+}
+
+.containerContact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  font-size: 30px;
+  color:lightseagreen;
+  font-family: "Sono", sans-serif;
+  box-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 5px black;
+}
+.textInfo{
+  color: white;
+  font-size: 20px;
+  font-family: "Sono", sans-serif;
+  font-weight: 700;
+}
+
+.span{
+  color: gray;
+  font-family: "Sono", sans-serif;
+}
+
+.span::before{
+  content:"📧"
+}
+
+.span2{
+  color: gray;
+  font-family: "Sono", sans-serif;
+}
+
+.span2::before{
+  content:"📍"
+}
+
+.span3{
+  color: gray;
+  font-family: "Sono", sans-serif;
+}
+
+.span3::before{
+  content:"📲"
+}
+
+.titleSend{
+  color:lightseagreen;
+  font-family: "Sono", sans-serif;
+  font-size: 25px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  min-width:max-content;
+}
+
+.input{
+  background-color: #363636;
+  border-radius: 20px;
+  border: 1px solid white;
+  height: 80px ;
+  width: 100%;
+  color: white;
+}
+
+.inputExtras{
+  height: 40px;
+  background-color: #363636;
+  border-radius: 20px;
+  border:1px solid white;
+  width: 100%;
+  color: white;
+}
+
+.inputContainer{
+  min-width: 100%;
+  padding: 10px;
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonSend{
+  width: 80px;
+  height: 30px;
+  background-color: lightskyblue;
+  border-radius: 20px;
+  font-family: "Sono", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+}
+
+.buttonSend:hover{
+  box-shadow: 2px 2px 5px lightseagreen;
+  width: 90px;
+  height: 30px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.containerTitle{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+@media only screen and (min-width:768px ) and (max-width:990px) {
+
+  .containerContact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 40px;
+  }
+  
+  .title{
+    font-size: 40px;
+  }
+
+  .formContainer{
+    margin-left: 100px;
+  }
+
+  .span{
+    font-family: "Sono", sans-serif;
+  }
+
+  .span2{
+    font-family: "Sono", sans-serif;
+  }
+
+  .span3{
+    font-family: "Sono", sans-serif;
+  }
+
+ 
+}
+
+@media only screen and (min-width:991px) {
+  .containerContact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  
+  .title{
+    font-size: 45px;
+  }
+
+  .formContainer{
+    margin-left: 100px;
+  }
+  
+  
+  .titleSend{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .textInfo{
+    font-size: 35px;
+  }
+
+  .span{
+    font-family: "Sono", sans-serif;
+    font-size: 25px;
+  }
+
+  .span2{
+    font-family: "Sono", sans-serif;
+    font-size: 25px;
+  }
+
+  .span3{
+    font-family: "Sono", sans-serif;
+    font-size: 25px;
+  }
+
+  .form{
+    width: 70%;
+  }
+
+}

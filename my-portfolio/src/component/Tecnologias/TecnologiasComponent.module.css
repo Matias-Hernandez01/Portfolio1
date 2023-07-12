@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sono:wght@200&display=swap');
+
+
+.mainContainer{
+  background-image: url("../../images/backprueba.jpg");
+  display: flex;
+  flex-direction: row;
+  min-width: 100%;
+}
+.landingContainer{
+  position: relative;
+}
+
+.imageContainer{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.imageContainer:hover{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px lightseagreen;
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+}
+
+
+.containerComponent{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skillContainer{
+  background-color: #222222;
+  width: 70%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.skillContainer:hover{
+  box-shadow: 0px 0px 5px lightseagreen;
+}
+
+.containerTitle{
+  width: max-content;
+  height: max-content;
+  margin-left: 20px;
+}
+
+.title{
+  color: white;
+  font-size: 35px;
+  font-family: "Sono", sans-serif;
+  font-weight: 600;
+  box-shadow: 2px 2px 10px black;
+  text-shadow: 2px 2px 5px lightseagreen;
+}
+
+.span{
+  font-family: "Sono", sans-serif;
+  color: white;
+}
+
+@media only screen and (min-width:0px) and (max-width:420px){
+  .landingContainer{
+    display: flex;
+  }
+
+  .image{
+    display: flex;
+  }
+
+  .skillContainer{
+    display: flex;
+  }
+
+}
+
+@media only screen and (min-width:421px) and (max-width:768px){
+    .image{
+      width:70px;
+      height:70px;
+    }
+
+    .skillContainer{
+      margin-left: 40px;
+    }
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width:980px){
+  .image{
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 981px){
+  .image{
+    width: 120px;
+    height: 120px;
+  }
+  .skillContainer{
+    margin-left: 40px;
+  }
+
+  .title{
+    font-size: 50px;
+  }
+}

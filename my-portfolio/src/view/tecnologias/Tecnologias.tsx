@@ -1,5 +1,5 @@
-import react from 'react';
 import TecnologiasComponent from '../../component/Tecnologias/TecnologiasComponent';
+import Landing from '../Landing/Landing';
 
 const Tecnologias = () => {
   return (

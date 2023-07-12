@@ -1,4 +1,3 @@
-import react from 'react';
 import { Landing } from '../../view';
 import style from './AboutmeComponent.module.css';
 const AboutmeComponent: React.FC = () => {
