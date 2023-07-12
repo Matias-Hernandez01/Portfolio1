@@ -1,0 +1,571 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Sono:wght@700&display=swap');
+
+.mainContainer {
+  display: flex;
+  min-height: 100vh;
+  background-color: lightslategray;
+  background-image:url("../../images/backprueba.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ul{
+  list-style-type: none;
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 210px){
+  .containerImageProfile{
+    display: none;
+  }
+  .landingContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+  }
+  .description {
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-left: 70px;
+  }
+  .description2{
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text{
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 22px;
+  }
+  .text2{
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 15px;
+  }
+  .name{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+    font-size: 22px;
+  }
+
+  .imgOptions{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .name{
+    font-size:22px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+    border-right: 4px solid;
+    width: 10ch;
+    color: lightseagreen;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 2.5s steps(10), blink .5s infinite step-end alternate;
+    overflow:hidden;
+  }
+  .name2{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+    font-size:25px;
+    border-right: 4px solid;
+    display: flex;
+    width: 10ch;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 2.5s steps(10), blink .5s infinite step-start alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes typing {
+    from{width: 0}
+  } 
+  @keyframes blink {
+    50% {border-color: transparent}  
+  }
+
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imageContact{
+    width: 20px;
+    height: 20px;
+  }
+
+  .ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+  }
+
+  .li{
+    margin-right: 2px;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 211px) and (max-width: 420px){
+
+  .landingContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+  }
+  .description {
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+    margin-left: 70px;
+  }
+  .description2{
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text{
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 25px;
+  }
+  .text2{
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 25px;
+  }
+  .name{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+  }
+
+  .imgOptions{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .name{
+    font-size:25px;
+    display: flex;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+    border-right: 4px solid;
+    width: 10ch;
+    color: lightseagreen;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 2.5s steps(10), blink .5s infinite step-end alternate;
+    overflow:hidden;
+  }
+  .name2{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: pre-wrap;
+    font-size:25px;
+    border-right: 4px solid;
+    display: flex;
+    width: 10ch;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 2.5s steps(10), blink .5s infinite step-start alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes typing {
+    from{width: 0}
+  } 
+  @keyframes blink {
+    50% {border-color: transparent}  
+  }
+  
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imageContact{
+    width: 40px;
+    height: 40px;
+  }
+
+  .ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .li{
+    margin-right: 15px;
+    margin-top: 100px;
+  }
+  .containerImageProfile{
+    display: none;
+  }
+}
+
+
+@media only screen and (min-width: 421px) and (max-width: 768px) {
+
+  .landingContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+  }
+  .description {
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  .description2{
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 2px 2px rgb(92, 200, 236);
+  }
+
+  .imgOptions{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .name{
+    font-size:35px;
+    display: flex;
+    font-family: "Sono", sans-serif;
+    white-space:nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    color: lightseagreen;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(19), blink .5s infinite step-end alternate;
+    overflow:hidden;
+  }
+  .name2{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: nowrap;
+    font-size:35px;
+    border-right: 4px solid;
+    display: flex;
+    width: 12ch;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(12), blink .5s infinite step-start alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes typing {
+    from{width: 0}
+  } 
+  @keyframes blink {
+    50% {border-color: transparent}  
+  }
+  
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imageContact{
+    width: 40px;
+    height: 40px;
+  }
+
+  .ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .li{
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .containerImageProfile{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+  .landingContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+  }
+  .description {
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  .description2{
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 2px 2px rgb(92, 200, 236);
+  }
+
+  .imgOptions{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .name{
+    font-size:35px;
+    display: flex;
+    font-family: "Sono", sans-serif;
+    white-space:nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    color: lightseagreen;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(19), blink .5s infinite step-end alternate;
+    overflow:hidden;
+  }
+  .name2{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: nowrap;
+    font-size:35px;
+    border-right: 4px solid;
+    display: flex;
+    width: 12ch;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(12), blink .5s infinite step-start alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes typing {
+    from{width: 0}
+  } 
+  @keyframes blink {
+    50% {border-color: transparent}  
+  }
+  
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .imageContact{
+    width: 40px;
+    height: 40px;
+  }
+
+  .ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .li{
+    margin-right: 15px;
+    margin-top: 50px;
+  }
+  .containerImageProfile{
+    display: none;
+  }
+}
+
+@media only screen and (min-width:961px){
+  .landingContainer {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    min-height: 100vh;
+  }
+  .description {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30%;
+  }
+  .description2{
+    position:inherit;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30%;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-family: "Sono", sans-serif;
+    font-size: 55px;
+    text-shadow: 3px 2px 2px rgb(92, 200, 236);
+    margin-left: 70px;
+  }
+
+  .name{
+    font-size:55px;
+    display: flex;
+    font-family: "Sono", sans-serif;
+    white-space:nowrap;
+    border-right: 4px solid;
+    width: 17ch;
+    color: lightseagreen;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(19), blink .5s infinite step-end alternate;
+    overflow:hidden;
+    margin-left: 70px;
+  }
+  .name2{
+    color: lightseagreen;
+    font-family: "Sono", sans-serif;
+    white-space: nowrap;
+    font-size:55px;
+    border-right: 4px solid;
+    display: flex;
+    width: 12ch;
+    text-shadow: 3px 2px 2px rgb(255, 255, 255);
+    animation: infinite typing 4s steps(12), blink .5s infinite step-start alternate;
+    overflow:hidden;
+  }
+  
+  @keyframes typing {
+    from{width: 0}
+  } 
+  @keyframes blink {
+    50% {border-color: transparent}  
+  }
+  
+  .contactContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 200px;
+  }
+
+  .imageContact{
+    width: 60px;
+    height: 60px;
+  }
+
+  .ul{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .li{
+    margin-right: 15px;
+  }
+
+  .containerImageProfile{
+    margin-top: 150px;
+    margin-right: 50px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .imageProfile{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+
+}
